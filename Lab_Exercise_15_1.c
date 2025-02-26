@@ -2,7 +2,7 @@
 //Write a program to generate the following table:
 
 #include<stdio.h>
-
+#include "function.h"
 
 int main() {
 	charLine('-',29);

@@ -20,7 +20,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="functions.c" />
-    <ClCompile Include="Lab_Exercise_15_1.c" />
+    <ClCompile Include="Lab_Exercise_15_1.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lab_Exercise_15_2.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lab_Exercise_16.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="function.h" />
