@@ -34,15 +34,39 @@ int check(int num) {
 
 int prime(int num) {
 	
-	for (int i = 2; i < num; i++) {
-		if (i % num == 0) {
+	if (num < 2) {
+		return 0;
+	}
+	for (int i = 2; i * i < num; i++) {
+		if (num % i == 0) {
 			return 0;
 		}
-		else {
-			return 1;
-		}
-			
-		
 	}
 
+	return 1;
+}
+
+//lab 17_1
+
+void areaCircum(int rad, float *a,float *c) {
+
+	*a = 3.14 * (rad * rad);
+
+	*c = 2*(3.14 * rad);
+}
+
+void areaPeri(int l, int w, int *a, int *p) {
+
+	*a = l * w;
+	*p = 2 * (l + w);
+}
+
+//Lab 17_2
+
+void power(int base, int index, int* result) {
+
+	int* result = 1;
+	for (int i = 1; i <= index; i++) {
+		result = *result * base;
+	}
 }

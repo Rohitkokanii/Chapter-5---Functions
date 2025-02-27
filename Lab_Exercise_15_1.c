@@ -5,7 +5,7 @@
 #include "function.h"
 
 int main() {
-	charLine('-',29);
+	charLine(196, 29);
 	printf("\n");
 	charLine('|',1);
 	printf(" Data Type ");
@@ -14,7 +14,7 @@ int main() {
 	charLine('|', 1);
 	printf("\n");
 
-	charLine('-', 29);
+	charLine(196, 29);
 	printf("\n");
 	charLine('|', 1);
 	printf("  Integer  ");
@@ -23,7 +23,7 @@ int main() {
 	charLine('|', 1);
 	printf("\n");
 
-	charLine('-', 29);
+	charLine(196, 29);
 	printf("\n");
 	charLine('|', 1);
 	printf(" Charecter ");
@@ -32,16 +32,17 @@ int main() {
 	charLine('|', 1);
 	printf("\n");
 
-	charLine('-', 29);
+	charLine(196, 29);
 	printf("\n");
 	charLine('|', 1);
-	printf("   Float   ");
+	printf("\t\bFloat");
 	charLine('|', 1);
-	printf("       %d       ", sizeof(float));
+	printf("%8d\t\t\b\b\b\b", sizeof(float));
 	charLine('|', 1);
 	printf("\n");
 
-	charLine('-', 29);
+	charLine(196, 29);
+	
 	return 0;
 }
 

@@ -11,3 +11,9 @@ void fibonacci(int);
 int check(int);
 
 int prime(int);
+
+//lab 17
+
+void areaCircum(int, float*, float*);
+
+void areaPeri(int, int, int*, int*);
