@@ -12,17 +12,17 @@ its data type then we say that overflow has occurred. In this case, consider ove
 
 int main() {
 
-	int base, index, result;
+	int base, index, result=1;
 	printf("\nEnter Base : Index = ");
 	scanf_s("%d%d",&base,&index);
 
 	power(base,index,&result);
 
-	if (result < 0) {
-		print("Error : Overflow");
+	if (result <= 0) {
+		printf("\nError : Overflow\n");
 	}
 	else {
-		print("\n Power = %d",result);
+		printf("\nPower = %d \n",result);
 	}
 
 	return 0;

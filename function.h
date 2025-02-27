@@ -17,3 +17,5 @@ int prime(int);
 void areaCircum(int, float*, float*);
 
 void areaPeri(int, int, int*, int*);
+
+void getDate(int*,int*,int*);

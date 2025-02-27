@@ -65,8 +65,21 @@ void areaPeri(int l, int w, int *a, int *p) {
 
 void power(int base, int index, int* result) {
 
-	int* result = 1;
 	for (int i = 1; i <= index; i++) {
-		result = *result * base;
+		*result = *result * base;
 	}
+}
+
+//Lab 17_3
+
+void getDate(int* dd, int* mm, int* yy) {
+
+	printf("\nEnter Day :");
+	scanf_s("%d",&*dd);
+
+	printf("\nEnter Month :");
+	scanf_s("%d", &*mm);
+
+	printf("\nEnter Year last 2 digits :");
+	scanf_s("%d", &*yy);
 }
