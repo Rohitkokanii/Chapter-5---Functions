@@ -23,7 +23,7 @@ int main() {
 	
 	if (prime(num)) {
 		printf("\nPrime\n");
-	}
+	} 
 	else {
 		printf("\nNot Prime\n");
 	}

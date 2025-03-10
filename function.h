@@ -19,3 +19,9 @@ void areaCircum(int, float*, float*);
 void areaPeri(int, int, int*, int*);
 
 void getDate(int*,int*,int*);
+
+//lab 18_1
+int Calfactorial(int);
+
+//lab 18_1
+int digsum(int);

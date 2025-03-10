@@ -36,6 +36,12 @@
     <ClCompile Include="Lab_Exercise_17_3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Lab_Exercise_18_1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab_Exercise_18_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="function.h">

@@ -37,7 +37,7 @@ int prime(int num) {
 	if (num < 2) {
 		return 0;
 	}
-	for (int i = 2; i * i < num; i++) {
+	for (int i = 2; i < num; i++) {
 		if (num % i == 0) {
 			return 0;
 		}
@@ -82,4 +82,28 @@ void getDate(int* dd, int* mm, int* yy) {
 
 	printf("\nEnter Year last 2 digits :");
 	scanf_s("%d", &*yy);
+}
+
+//Lab 18_1
+
+int Calfactorial(int n){
+	if (n == 0) {
+		return 1;
+	}
+	return n * Calfactorial(n-1);
+}
+
+
+//lab 18_2
+
+int digsum(int n) {
+
+	if (n == 0) {
+		return 1;
+	}
+	int lastDig = n % 10;
+	int sum = 0;
+
+	return lastDig + digsum(n/=10);
+
 }
