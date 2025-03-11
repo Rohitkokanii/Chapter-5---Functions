@@ -8,8 +8,11 @@ Implement function fibonacci ( ) to make it recursive. Call the function from ma
 
 int main() {
 
-	int n = 5;
-	int p = Calfactorial(n);
-	printf("%d",p);
+	int n = 10;
+	int a = 0;
+	int b = 1;
+	printf("%d %d ", a, b);
+	fibRec(n,a,b);
+	
 	return 0;
 }

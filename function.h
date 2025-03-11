@@ -21,7 +21,7 @@ void areaPeri(int, int, int*, int*);
 void getDate(int*,int*,int*);
 
 //lab 18_1
-int Calfactorial(int);
+int fibRec(int,int,int);
 
 //lab 18_1
 int digsum(int);

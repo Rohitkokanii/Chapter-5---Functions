@@ -86,12 +86,23 @@ void getDate(int* dd, int* mm, int* yy) {
 
 //Lab 18_1
 
+
+int fibRec(int num,int a,int b) {
+
+	if (num == 0) {
+		return;
+	}
+	int c = a + b;
+	printf("%d ",c);
+	return fibRec(num - 1, b, c);
+}
+/*
 int Calfactorial(int n){
 	if (n == 0) {
 		return 1;
 	}
 	return n * Calfactorial(n-1);
-}
+}*/
 
 
 //lab 18_2
